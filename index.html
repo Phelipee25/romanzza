@@ -16,10 +16,11 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+      <div class="btnWhats"><a href="https://api.whatsapp.com/send?phone=+5511952300370&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="blank"><i class="fab fa-whatsapp"></i></a></div>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Romanzza</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./assets/img/logotipo.png"/></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -34,23 +35,48 @@
                 </div>
             </div>
         </nav>
+
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
+        <header class="masthead" style="display: flex;">
+          <div style="flex-direction: row;">
+                    <!-- formulario 1 -->
+                    <section id="formOne">
+                      <div  class="form-control" style="text-align: center; color: white; background-color: transparent; border:none; border-radius: 0px;"><h3>Preencha seus Dados</h3></div>
+                      <div class="form-control" style="text-align: end; background-color: transparent; border:none; border-radius: 0px;">
+                        <label for="name"></label>
+                        <input style="width: 350px;" type="text" placeholder="Nome"/>
+                      </div>
+                      <div class="form-control" style="text-align: end; background-color: transparent; border:none; border-radius: 0px;">
+                        <label for="Email"></label>
+                        <input style="width: 350px;" type="email" placeholder="E-Mail"/>
+                      </div>
+                      <div class="form-control" style="text-align: end; background-color: transparent; border:none; border-radius: 0px;">
+                        <label for="msg"></label>
+                        <input style="width: 350px;" type="tel" placeholder="Telefone"/>
+                      </div>
+                      <div class="form-control" style="text-align: end; background-color: transparent; border:none; border-radius: 0px;">
+                        <label for="msg"></label>
+                        <textarea style="width: 350px;" type="text" placeholder="Mensagem" rows="3"></textarea>
+                      </div>
+            
+            
+                    </section>
+            <div class="container d-flex h-100 align-items-center" id="mastText">
+                <div class="mx-auto text-primary">
                     <!-- <h1 class="mx-auto my-0 text-uppercase">Romanzza</h1> -->
                     <!-- <h6>Analia Franco</h6> -->
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5" style="text-align: justify; display: flex ;align-items: flex-start;">O design fala. O estilo também. O que eles dizem sobre você? O lugar onde você vive é uma mensagem. Em linhas, cores e ideias, a pura síntese de suas emoções. De suas razões. Seu espaço é seu espelho. Isso, chamamos de expressão. A gente dá vida a seus espaços. Mas é você que dá alma. A questão é: </h2>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5" style="text-align: justify; display: flex; align-self: center;">O design fala. O estilo também. O que eles dizem sobre você? O lugar onde você vive é uma mensagem. Em linhas, cores e ideias, a pura síntese de suas emoções. De suas razões. Seu espaço é seu espelho. Isso, chamamos de expressão. A gente dá vida a seus espaços. Mas é você que dá alma. A questão é: </h2>
                     <!-- <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a> -->
                 </div>
             </div>
+          </div>
         </header>
         <!-- About-->
-        <section class="about-section text-center" id="about">
+        <section class="about-section text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">O QUE TE ENCANTA?</h2>
+                        <h2 class="text-white mb-4" id="titulos">O QUE TE ENCANTA?</h2>
                         <p class="text-white-50" style="text-align: justify;">
                             É essa a pergunta que fazemos todos os dias. Há 30 anos, buscamos novas formas de encantar você. Na hora de criar, de investir, de inventar e de superar as expectativas. Um compromisso assumido em cartório. O resultado disso? Múltiplas lojas pelo Brasil, mais de 98% de satisfação e o mais importante: ambientes que falam sobre o que te inspira. Sobre quem você quer ser. Sobre quem você é.
                         </p>
@@ -84,21 +110,21 @@
             </div>
         </section>
         <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+        <section class="projects-section bg-light" id="about">
             <div class="container">
                 <!-- Featured Project Row-->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/img1.png" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Sobre</h4>
+                            <h4 id="titulos">SOBRE</h4>
                             <p class="text-black-50 mb-0" style="text-align: justify;">A Romanzza foi criada para transformar seus dias em experiências únicas. Porque para nós, sua satisfação faz parte do plano. Por isso, buscamos sempre as tecnologias mais atuais para oferecer cada vez mais opções de produtos para você.<a style="text-align: center;" class="nav-link js-scroll-trigger" href="#contato">ENCANTE-SE!</a>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div>
-                  <h2>COMPROMISSO E TECNOLOGIA PARA REALIZAR SONHOS!</h2>
+                <div id="projects">
+                  <h2 id="titulos">COMPROMISSO E TECNOLOGIA PARA REALIZAR SONHOS!</h2>
                 </div>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
@@ -128,14 +154,16 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only">Next</span>
                         </a>
-                      </div></div>
+                      </div>
+                      </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">MAIS DO QUE AMBIENTES, PLANEJAMOS O SEU BEM-ESTAR.</h4>
+                                    <h4 class="text-white" id="titulos">MAIS DO QUE AMBIENTES, PLANEJAMOS O SEU BEM-ESTAR.</h4>
                                     <p class="mb-0 text-white-50">Buscamos sempre novas formas de encantar você. O resultado disso? Ambientes que falam sobre o que te inspira. Sobre quem você quer ser. Sobre quem você é.</p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
+                                    <a href="https://drive.google.com/drive/folders/1bSUno9doNNuKu1DfIqWJ7F-S0nhnEUvs" target="blank">Download do catalogo</a>
                                 </div>
                             </div>
                         </div>
@@ -171,9 +199,10 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">TAILOR-MADE: PLANEJADO PARA SER SEU.</h4>
+                                    <h4 class="text-white" id="titulos">TAILOR-MADE: PLANEJADO PARA SER SEU.</h4>
                                     <p class="mb-0 text-white-50">Desenvolvemos processos que permitem variações de cores, encaixes, medidas, formas e recortes para criar ambientes que são puro encanto. Conheça as opções de acabamentos</p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
+                                    <a href="https://drive.google.com/drive/folders/1Or2GrZga5VSt2HrBLCcEJ-WL_FpQW4sv" target="blankgit add">Download do catalogo</a>
                                 </div>
                             </div>
                         </div>
@@ -181,23 +210,26 @@
                 </div>
             </div>
         </section>
-        <!-- Signup-->
-        <!-- <section class="signup-section" id="signup">
+        <!-- Institutional Video-->
+        <section style="background-color: rgb(100,101,102); height: 650px; display: flex;" class="institutional" id="institutional">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center"><br>
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <form class="form-inline d-flex">
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Enter email address..." />
-                            <button class="btn btn-primary mx-auto" type="submit">Subscribe</button>
+                        <h2 class="text-white mb-5">Inscreva-se</h2>
+                         <form class="form-inline d-flex">
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" placeholder="Receba Novidades" />
+                            <button class="btn btn-primary mx-auto" type="submit">Inscreva-se</button>
                         </form>
+                        <div><br><br>
+                          <iframe style="align-items: center; top: 70%; right: 25%;" width="560" height="315" src="https://www.youtube.com/embed/YWjtso1ZM7E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- Contact-->
-        <section class="contact-section bg-black" id="contato">
+        <section  class="contact-section bg-gray" id="contato">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 mb-3 mb-md-0">
@@ -238,29 +270,30 @@
                 </div>
             </div>
         </section>
-        <!-- formulario -->
-        <section class="form-section" id="form">
-          <form class="formulario" action="/pagina-processa-dados-do-form" method="post">
-            <div>
-              <label for="nome">Nome:</label>
-              <input class="input-form" type="text" id="nome" />
-            </div>
-            <div>
-              <label for="email">E-mail:</label>
-              <input class="input-form" type="email" id="email" />
-            </div>
-            <div>
-              <label for="tel">Telefone:</label>
-              <input class="input-form" type="tel" id="tel" />
-            </div>
-            <div>
-              <label for="msg">Mensagem:</label>
-              <textarea class="input-form" id="msg"></textarea>
-            </div>
-          </form>
+        <!-- formulario 2 -->
+        <section id="form">
+          <div class="form-control" style="text-align: center;color:white; background-color: rgb(100,101,102); border:none; border-radius: 0px;"><h3>Preencha seus Dados</h3></div>
+          <div class="form-control" style="text-align: center; background-color: rgb(100,101,102); border:none; border-radius: 0px;">
+            <label for="name"></label>
+            <input style="width: 450px;" type="text" placeholder="Nome"/>
+          </div>
+          <div class="form-control" style="text-align: center; background-color: rgb(100,101,102); border:none; border-radius: 0px;">
+            <label for="Email"></label>
+            <input style="width: 450px;" type="email" placeholder="E-Mail"/>
+          </div>
+          <div class="form-control" style="text-align: center; background-color: rgb(100,101,102); border:none; border-radius: 0px;">
+            <label for="msg"></label>
+            <input style="width: 450px;" type="tel" placeholder="Telefone"/>
+          </div>
+          <div class="form-control" style="text-align: center; background-color: rgb(100,101,102); border:none; border-radius: 0px;">
+            <label for="msg"></label>
+            <textarea style="width: 450px;" type="text" placeholder="Mensagem" rows="3"></textarea>
+          </div>
+
+
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © MazZ Soluções digitais.</div></footer>
+        <footer class="footer bg-gray small text-center text-white-50"><div class="container">Copyright © MazZ Soluções digitais.</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
